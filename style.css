@@ -1,0 +1,148 @@
+.header,.header-wrapper,.header-1, .header-2, .footer {
+    border: 2px solid black;
+    min-height: 80px;
+    text-align: center;
+    line-height: 80px;
+    
+}
+
+.header-1, .header-2, .header-3{
+    background-color: beige;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
+.header-wrapper{
+    overflow: hidden;
+}
+
+.header-1{
+    float: left;
+    width: 30%;
+}
+
+.header-2{
+    float:right;
+    width: 67%;
+}
+
+.body-wrapper{
+    background-color: greenyellow;
+}
+
+.body-wrapper,.left-block,.right-block,.center-block{
+    border: 2px solid black;
+    overflow: hidden;
+    text-align: center;
+
+}
+.left-block,.right-block,.center-block{
+   
+
+}
+
+.left-block {
+    float : left;
+    width:30%;
+    line-height: 246px;
+}
+
+.right-block {
+    float: right;
+    width:30%;
+    line-height: 246px;
+}
+
+.center-block {
+    line-height: 80px;
+}
+
+.clb, .crb , .ccblock, .mod-content{
+    border: 1px solid black;
+}
+
+.ccwraper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.clb{
+    float: left;
+    width : 48%;
+}
+
+.crb{
+    float: right;
+    width : 48%;
+}
+
+/* .mod-content{
+
+}*/
+
+.footer{
+    margin-top: 20px;
+    background-color: aqua;
+} 
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+
+  #rectangle {
+    width: 200px;
+    height: 100px;
+    background: red;
+  }
+
+  #circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+  }
+
+  #oval {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+  }
+
+  #triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+  }
+
+  #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 50px solid transparent;
+  }
+
+  .shapes{
+      margin-top: 20px;
+  }
+  .shapes div{
+      
+      display : inline-block;
+  }
+
+
